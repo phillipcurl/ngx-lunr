@@ -1,0 +1,13 @@
+{
+  "generator-angular-library": {
+    "githubUsername": "phillipcurl",
+    "githubRepoName": "ngx-lunr",
+    "npmModuleName": "ngx-lunr",
+    "moduleGlobal": "ngxLunr",
+    "ngModuleName": "NgxLunrModule",
+    "selectorPrefix": "lunr",
+    "projectTitle": "ngx-lunr",
+    "projectDescription": "A wrapper around Lunr.js for easy use in Angular apps.",
+    "authorName": "Phillip Curl"
+  }
+}
