@@ -1,5 +1,9 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import * as lunr from 'lunr';
+
+import { LunrService } from './services';
+import { LunrToken } from './tokens';
 import { HelloWorldComponent } from './hello-world.component';
 
 @NgModule({
@@ -8,6 +12,13 @@ import { HelloWorldComponent } from './hello-world.component';
   ],
   imports: [
     CommonModule
+  ],
+  providers: [
+    {
+      provide: LunrToken,
+      useFactory: lunrFactory
+    },
+    LunrService
   ],
   exports: [
     HelloWorldComponent
@@ -21,4 +32,8 @@ export class NgxLunrModule {
     };
   }
 
+}
+
+export function lunrFactory(): any {
+  return lunr;
 }

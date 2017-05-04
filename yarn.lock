@@ -101,6 +101,10 @@
     "@types/html-minifier" "*"
     "@types/webpack" "*"
 
+"@types/lunr@^0.5.29":
+  version "0.5.29"
+  resolved "https://registry.yarnpkg.com/@types/lunr/-/lunr-0.5.29.tgz#9e60552ff4d0d4e0823b7062b21d968caa90f8fb"
+
 "@types/mocha@^2.2.41":
   version "2.2.41"
   resolved "https://registry.yarnpkg.com/@types/mocha/-/mocha-2.2.41.tgz#e27cf0817153eb9f2713b2d3f6c68f1e1c3ca608"
@@ -1418,7 +1422,7 @@ debug@2.3.3:
   dependencies:
     ms "0.7.2"
 
-debug@2.6.0, debug@^2.2.0:
+debug@2.6.0:
   version "2.6.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.0.tgz#bc596bcabe7617f11d9fa15361eded5608b8499b"
   dependencies:
@@ -1430,13 +1434,13 @@ debug@2.6.1:
   dependencies:
     ms "0.7.2"
 
-debug@2.6.3, debug@^2.6.3:
+debug@2.6.3, debug@^2.2.0:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.3.tgz#0f7eb8c30965ec08c72accfa0130c8b79984141d"
   dependencies:
     ms "0.7.2"
 
-debug@2.6.4:
+debug@2.6.4, debug@^2.6.3:
   version "2.6.4"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.4.tgz#7586a9b3c39741c0282ae33445c4e8ac74734fe0"
   dependencies:
@@ -3370,6 +3374,10 @@ ltcdr@^2.2.1:
 lunr@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/lunr/-/lunr-1.0.0.tgz#5c9276c92c91ac35a9241b5018d46723d92e2f5f"
+
+lunr@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/lunr/-/lunr-2.0.3.tgz#a813dcbccbc4bdb8cb481110f515cb2472173a58"
 
 make-error@^1.1.1:
   version "1.2.3"
